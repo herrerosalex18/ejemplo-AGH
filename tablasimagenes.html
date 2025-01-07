@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Indice</h1>
+    <ul>
+        <li><a href="../cabecera/ejercicio.html">Inicio</a></li>
+        <li><a href="../cabecera/ejercicio.html">Formato de texto</a></li>
+        <li><a href=""></a>Listas</li>
+        <li><a href="../Tablas e imágenes/tablasimagenes.html">Tablas</a></li>
+        <li><a href="../Formularios/formulario.html">Formularios</a></li>
+
+    </ul>
+    <h1>EJEMPLOS DE TABLAS EN HTML</h1>
+    <table border="2" width="75%" cellspacing="10px" cellpadding="5px">
+        <caption>Muestra las principales etiquetas multimedia</caption>
+        <thead>
+            <tr>
+                <td colspan="3"><a href="https://es.wikipedia.org/wiki/Multimedia">Multimedia en html</a></td>
+            </tr>
+            <tr>
+                <th>imagenes</th>
+                <th>video</th>
+                <th>sonido</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>
+            <figure>
+            <img src="curso-html-formatos-de-texto.png" width="200px">
+            <figcaption> formatos de imagenes </figcaption>
+            </figure>
+            <picture>
+                <source srcset="formatos-imagenes.png">
+                <source srcset="formatos-imagenes.jpeg">
+              </picture>
+              
+            </td>
+            <td rowspan="2">
+                <video controls width="600">
+                    <source src="Como hacer mondongo - RECETA Tradicional con ingredientes NATURALES - La Cocina de Carlos (720p, h264).mp4" type="video/mp4">
+                    <track src="subtitulos.vtt" kind="subtitles" srclang="es" label="Español">
+                    Tu navegador no soporta la etiqueta de video.
+                  </video>
+                  
+            </td>
+            <td rowspan="2">
+                <audio controls>
+                    <source src="Como Camarón.mp3" type="audio/mpeg">
+                    <source src="audio.ogg" type="audio/ogg">
+                    Tu navegador no soporta la reproducción de audio.
+                  </audio>
+                  
+            </td>
+            </tr>
+            <tr>
+            <td> &lt;src="archivo.png"&gt;<img src="Captura de pantalla 2024-11-19 151140.png" with="50px"></td>
+            </tr>
+            <tr>
+            <td> &lt;img&gt; &lt;figure&gt;&lt; picture&gt;</td>
+            <td>&lt;video src="video.mp4"&gt;</td>
+            <td>&lt;audio src="audio.mp3"&gt;</td>
+            </tr>
+            </tbody>
+            
+        
+        <!-- No tenemos filas finales de tabla
+        <tfoot>
+
+        </tfoot>
+    -->
+    </table>
+</body>
+</html>
